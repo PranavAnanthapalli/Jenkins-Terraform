@@ -14,7 +14,7 @@ variable "dynamodb_name" {
     default = "dynamodblocktable"
 }
 variable "profile" {
-  default = "NK_AWS"
+  default = "PranavA"
 }
 
 variable "ec2_ami" {
@@ -26,7 +26,7 @@ variable "instance_type" {
 }
 
 variable "ec2_keypair" {
-  default = "Load"
+  default = "rhel"
 }
 
 variable "ec2_count" {
@@ -42,8 +42,8 @@ variable "product" {
   default = "mgmt-load"
 }
 variable "vpc_id" {
-  default = "vpc-0fdf778d69038751e"
+  default = "vpc-0c10436cee3296c63"
 }
 variable "subnets" {
-   default = ["subnet-03ddbe0583ca7bd8e"]
+   default = ["subnet-00bdece1c686803b4"]
 }
